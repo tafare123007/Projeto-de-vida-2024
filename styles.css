@@ -1,0 +1,71 @@
+:root {
+  --cor-de-fundo: #31652D;
+  --verde: #4DC13A;
+  --branco: #7075E7;
+  --botao-ativo: #2E2F49;
+  --botao-inativo: #297130;
+  --texto-fundo: #FFFFFF;
+  --conometro: #6FFF57;
+  --conometro: #D712F6;
+  --bordas-botões: #3A375E;
+  --bordas-botões: #6FFF57;
+  --tempo-para-completar-objetivo: #4DC13A;
+  --estudar-4-cursos-no-alura: #7075E7;
+  --rectangle: #3A375E;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco);
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.titulo-principal {
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+.titulo-principal span {
+  color: var(--verde);
+}
+.botao{
+  font-family: "Crakra Petch", sans-serif;
+  background-color: var(--botao-inativo);
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid var(--botao-ativo);
+  border-left: 2px solid var(--botao-ativo);
+  border-right: 2px solid var(--botao-ativo);
+  border-top: none;
+}
+.botoes {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .botoes {
+      display: flex;
+  }
+
+  .botao:first-child {
+      border-radius: 40px 0 0 0;
+  }
+
+  .botao:last-child {
+      border-radius: 0 40px 0 0;
+  }
+}
