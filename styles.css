@@ -8,38 +8,9 @@
 }
 
 body {
-  background-color: var(--cor-de-fundo);
-  color: var(--branco);
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-
-.conteudo-principal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.titulo-principal {
-  text-align: left;
-  width: 100%;
-  font-size: 32px;
-}
-
-.titulo-principal span {
-  color: var(--verde);
-}
-
-
-.botao {
- 
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: "Pixelify Sans", sans-serif;
+    font-family:  "Pixelify Sans", sans-serif;
 }
 
 
@@ -65,7 +36,7 @@ body {
 
 
 .botao {
-    font-family:"Pixelify Sans", sans-serif;
+    font-family:  "Pixelify Sans", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
